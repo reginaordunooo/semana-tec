@@ -1,3 +1,13 @@
+# Maria Regina Orduño Lopez - A01252959
+# 20/03/2025
+""" Este programa es una modificacion del programa "myconvolution.py" con padding 
+que realiza una convolucion de una imagen con un filtro dado. """
+""" Para ejecutar este código, es necesario tener instaladas las siguientes bibliotecas:
+ - NumPy
+ - OpenCV
+ - Matplotlib
+ y verificar que la imagen "Turquia.jpg" este guardado, asi como tambien verificar el path de esta. """
+import numpy as np
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
