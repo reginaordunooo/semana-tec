@@ -29,11 +29,11 @@ def convolution(image_path, filtro):
 
     output = np.clip(output, 0, 255).astype(np.uint8)
 
-    return image, padded_image, output  # Devuelve la imagen original y la filtrada
+    return image, padded_image, output  # Devuelve la imagen original, con padding y la filtrada
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    image_path = "Turquia.jpg"  # Cambia esto a la ruta correcta de tu imagen
+    image_path = "Turquia.jpg" 
 
     # Filtro Sobel en X (detección de bordes)
     filtro = np.array([

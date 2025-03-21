@@ -29,7 +29,7 @@ def convolution(image_path, filtro):
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    image_path = "Turquia.jpg"  # Cambia esto a la ruta correcta de tu imagen
+    image_path = "Turquia.jpg" 
 
     # Filtro Sobel en X (detección de bordes)
     filtro = np.array([
